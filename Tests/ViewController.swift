@@ -10,9 +10,14 @@ import WebKit
 
 class ViewController: UIViewController {
 
+    let articleView = ArticleDetailView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+     
+        self.view.addSubview(articleView)
+        articleView.frame = self.view.frame
     }
 
 
