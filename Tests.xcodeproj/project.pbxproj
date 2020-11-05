@@ -15,6 +15,7 @@
 		976C45162552CA62002E2986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 976C45152552CA62002E2986 /* Assets.xcassets */; };
 		976C45192552CA62002E2986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976C45172552CA62002E2986 /* LaunchScreen.storyboard */; };
 		976C45302552F788002E2986 /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976C452F2552F788002E2986 /* ArticleDetailView.swift */; };
+		976C4533255403AE002E2986 /* ArticleDetailLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976C4532255403AE002E2986 /* ArticleDetailLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		976C45182552CA62002E2986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		976C451A2552CA62002E2986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		976C452F2552F788002E2986 /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
+		976C4532255403AE002E2986 /* ArticleDetailLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailLayout.swift; sourceTree = "<group>"; };
 		A478FBD652BBC2CC23EDADEC /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35F2930FA12E3598DDB71DD /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,11 +78,12 @@
 				976C450C2552CA60002E2986 /* AppDelegate.swift */,
 				976C450E2552CA60002E2986 /* SceneDelegate.swift */,
 				976C45102552CA60002E2986 /* ViewController.swift */,
-				976C452F2552F788002E2986 /* ArticleDetailView.swift */,
 				976C45122552CA60002E2986 /* Main.storyboard */,
 				976C45152552CA62002E2986 /* Assets.xcassets */,
 				976C45172552CA62002E2986 /* LaunchScreen.storyboard */,
 				976C451A2552CA62002E2986 /* Info.plist */,
+				976C452F2552F788002E2986 /* ArticleDetailView.swift */,
+				976C4532255403AE002E2986 /* ArticleDetailLayout.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				976C45302552F788002E2986 /* ArticleDetailView.swift in Sources */,
+				976C4533255403AE002E2986 /* ArticleDetailLayout.swift in Sources */,
 				976C45112552CA60002E2986 /* ViewController.swift in Sources */,
 				976C450D2552CA60002E2986 /* AppDelegate.swift in Sources */,
 				976C450F2552CA60002E2986 /* SceneDelegate.swift in Sources */,
